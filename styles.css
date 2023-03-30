@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Unbounded", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  font-family: "Unbounded";
+  color: #fff;
+  display: flex;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 200px 0px;
+}
+
+.kando {
+  background-color: #666;
+  width: 450px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  padding: 10px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input:focus-visible {
+  outline: none;
+  color: #fff;
+}
+
+input:target {
+  color: #fff;
+}
+
+.chatinput-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.chatinput-container #submit {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  curson: pointer;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.chat-history p {
+  cursor: pointer;
+}
